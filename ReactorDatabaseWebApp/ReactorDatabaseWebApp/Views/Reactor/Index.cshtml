@@ -1,0 +1,158 @@
+﻿@using ReactorDatabaseWebApp.Models
+@model List<ReactorPO>
+@{
+    ViewBag.Title = "Index";
+}
+<head>
+    <script src="~/Scripts/site.js"></script>
+</head>
+
+<div id="tempData">
+@if (TempData.ContainsKey("deletionResult"))
+{
+    <br />
+    <p class="text-info">@TempData["deletionResult"]</p>
+}
+
+@if (TempData.ContainsKey("idNotFound"))
+{
+    <br />
+    <p class="text-info">@TempData["idNotFound"]</p>
+}
+
+@if (TempData.ContainsKey("addNew"))
+{
+    <br />
+    <p class="text-info">@TempData["addNew"]</p>
+}
+
+@if (TempData.ContainsKey("registerFail"))
+{
+    <br />
+    <p class="text-danger">@TempData["registerFail"]</p>
+}
+
+@if (TempData.ContainsKey("registerSuccess"))
+{
+    <br />
+    <p class="text-success">@TempData["registerSuccess"]</p>
+}
+
+@if (TempData.ContainsKey("loginSuccess"))
+{
+    <br />
+    <p class="text-success">@TempData["loginSuccess"]</p>
+}
+
+</div>
+
+<h2>Reactor List</h2>
+
+@if (Model.Count > 0)
+{
+    <div class="wrapper">
+    <table class="table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Moderator</th>
+                <th>Fuel</th>
+                <th>Spectrum</th>
+                <th>Generation</th>
+                <th>Operating</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (ReactorPO reactorPO in Model)
+            {
+                <tr>
+                    <td>@reactorPO.Name</td>
+                    <td>
+                        @if (reactorPO.ModeratorName != null)
+                        {
+                            <div>@reactorPO.ModeratorName</div>
+                        }
+                        else
+                        {
+                            <div>--</div>
+                        }
+                    </td>
+                    <td>@reactorPO.Fuel</td>
+                    <td>
+                        @if (reactorPO.IsThermal)
+                        {
+                            <div>Thermal</div>
+                        }
+                        else
+                        {
+                            <div>Fast</div>
+                        }
+                    </td>
+                    <td>@reactorPO.Generation</td>
+                    <td>@reactorPO.NumberActive</td>
+                    <td>
+                        @Html.ActionLink(" ", "ReactorDetails", new { id = reactorPO.ReactorID }, new { title = "Details", @class = "glyphicon glyphicon-th-list btn btn-default" })
+                        @if (Session["Role"] != null)
+                        {
+                            if (int.TryParse(Session["Role"].ToString(), out int roleID) && roleID >= 2)
+                            {
+                                @Html.ActionLink(" ", "UpdateReactor", new { id = reactorPO.ReactorID }, new { title = "Edit", @class = "glyphicon glyphicon-pencil btn btn-default" })
+                                if (roleID >= 3)
+                                {
+                                    @Html.ActionLink(" ", "DeleteReactor", new { id = reactorPO.ReactorID }, new
+                                    {
+                                        title = "Delete",
+                                        @class = "glyphicon glyphicon-trash btn btn-default",
+                                        @onclick = "return Confirmation('Are you sure you want to permanently delete this reactor?')"
+                                    })
+                                }
+                            }
+
+                            if (ViewBag.Bookmarks != null)
+                            {
+                                if (ViewBag.Bookmarks.Contains(reactorPO.ReactorID))
+                                {
+                                    <div id="@("removeBookmark"+reactorPO.ReactorID)" style="display:inline">
+                                        @Ajax.ActionLink(" ", "RemoveBookmark", "Bookmark", new { userID = int.Parse(Session["ID"].ToString()), reactorID = reactorPO.ReactorID },
+                                                     new AjaxOptions { HttpMethod = "GET", OnSuccess="toggleBookmark("+reactorPO.ReactorID+")" }, new { @class = "glyphicon glyphicon-star btn btn-default" })
+                                    </div>
+                                    <div id="@("addBookmark"+reactorPO.ReactorID)" style="display:none">
+                                        @Ajax.ActionLink(" ", "AddBookmark", "Bookmark", new { userID = int.Parse(Session["ID"].ToString()), reactorID = reactorPO.ReactorID },
+                                                     new AjaxOptions { HttpMethod = "GET", OnSuccess = "toggleBookmark(" + reactorPO.ReactorID + ")" }, new { @class = "glyphicon glyphicon-star-empty btn btn-default" })
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div id="@("addBookmark"+reactorPO.ReactorID)" style="display:inline">
+                                        @Ajax.ActionLink(" ", "AddBookmark", "Bookmark", new { userID = int.Parse(Session["ID"].ToString()), reactorID = reactorPO.ReactorID },
+                                                     new AjaxOptions { HttpMethod = "GET", OnSuccess = "toggleBookmark(" + reactorPO.ReactorID + ")" }, new { @class = "glyphicon glyphicon-star-empty btn btn-default" })
+                                    </div>
+                                    <div id="@("removeBookmark"+reactorPO.ReactorID)" style="display:none">
+                                        @Ajax.ActionLink(" ", "RemoveBookmark", "Bookmark", new { userID = int.Parse(Session["ID"].ToString()), reactorID = reactorPO.ReactorID },
+                                                     new AjaxOptions { HttpMethod = "GET", OnSuccess = "toggleBookmark(" + reactorPO.ReactorID + ")" }, new { @class = "glyphicon glyphicon-star btn btn-default" })
+                                    </div>
+                                }
+                            }
+                            else { }
+
+                        }
+                    </td>
+                </tr>
+            }
+            @if (Session["Role"] != null && int.TryParse(Session["Role"].ToString(), out int role) && role >= 2)
+            {
+                <tr><td>@Html.ActionLink("New", "AddReactor", null, new { @class = "btn btn-default" })</td></tr>
+            }
+        </tbody>
+    </table>
+    </div>
+}
+else
+{
+    <p>No reactor information found.</p>
+    if (Session["Role"] != null && int.TryParse(Session["Role"].ToString(), out int role) && role >= 2)
+    {
+        <p>@Html.ActionLink("Add New Reactor", "AddReactor")</p>
+    }
+}
+

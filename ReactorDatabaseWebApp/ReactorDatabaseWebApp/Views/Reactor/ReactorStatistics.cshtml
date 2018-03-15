@@ -1,0 +1,96 @@
+﻿@using ReactorDatabaseWebApp.Models
+@model StatisticsPO
+@{
+    ViewBag.Title = "ReactorStatistics";
+}
+
+<head>
+    <script src="~/Scripts/Chart.bundle.min.js"></script><!--From chartjs.org-->
+    <script src="~/Scripts/site.js"></script>
+</head>
+<body>
+    <h2>Database Statistics</h2>
+
+    @if (Model != null)
+    {
+        <h3 class="text-center">@Model.ReactorCount Reactors Currently in Database</h3>
+
+        <div id="statsWrap">
+            <div class="statsBox row">
+                <div class="statsText col-md-6" id="spectrumStats">
+                    <h3 class="statsHeader">Neutron Spectrum</h3>
+                    <ul class="statsList">
+                        <li>@Model.ThermalCount Thermal Reactors (@Model.PercentThermal.ToString("F")%)</li>
+                        <li>@Model.FastCount Fast Reactors (@Model.PercentFast.ToString("F")%)</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                <canvas id="spectrumChart" width="400" height="400"></canvas>
+                <script>
+                var ctx = document.getElementById("spectrumChart");
+                var spectrumDoughnutChart = new Chart(ctx, {
+                    type: 'doughnut',
+                    data: {
+                    datasets: [{
+                        data: [@Model.ThermalCount, @Model.FastCount],
+                        backgroundColor: ['rgb(30, 144, 255)','rgb(220, 20, 60)']
+                    }],
+                    labels: [
+                        'Thermal reactors in database',
+                        'Fast reactors in database'
+                    ]
+                },
+                    options: {
+                        responsive: false
+                    }
+                });
+                </script>
+                </div>
+            </div>
+
+            <div class="statsBox row">
+                <div class="col-md-6">
+                    <canvas id="genChart" width="400" height="400"></canvas>
+                    <script>
+                    var ctx = document.getElementById("genChart");
+                    var genDoughnutChart = new Chart(ctx, {
+                        type: 'doughnut',
+                        data: {
+                        datasets: [{
+                            data: [@Model.GenIcount, @Model.GenIIcount, @Model.GenIIIcount, @Model.GenIVcount, @Model.GenVcount, @Model.NoGenCount],
+                            backgroundColor: ['#36a2eb', '#ff6384', '#ffcd56', 'rgb(149, 117, 205)', '#4bc0c0', '#c9cbcf']
+                        }],
+                        labels: [
+                            'Generation I',
+                            'Generation II',
+                            'Generation III',
+                            'Generation IV',
+                            'Generation V',
+                            'No generation'
+                        ]
+                    },
+                        options: {
+                            responsive: false
+                        }
+                    });
+                    </script>
+                </div>
+                <div class="statsText col-md-6" id="genStats">
+                    <h3 class="statsHeader">Reactor Generation</h3>
+                    <ul class="statsList">
+                        <li><b>Generation I:</b> @Model.GenIcount reactors (@Model.PercentGenI.ToString("F")%)</li>
+                        <li><b>Generation II:</b> @Model.GenIIcount reactors (@Model.PercentGenII.ToString("F")%)</li>
+                        <li><b>Generation III:</b> @Model.GenIIIcount reactors (@Model.PercentGenIII.ToString("F")%)</li>
+                        <li><b>Generation IV:</b> @Model.GenIVcount reactors (@Model.PercentGenIV.ToString("F")%)</li>
+                        <li><b>Generation V:</b> @Model.GenVcount reactors (@Model.PercentGenV.ToString("F")%)</li>
+                        <li>No generation listed for @Model.NoGenCount reactors (@Model.PercentNoGen.ToString("F")%)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <p>No statistics found.</p>
+    }
+</body>

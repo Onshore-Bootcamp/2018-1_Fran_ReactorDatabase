@@ -1,0 +1,64 @@
+﻿@using ReactorDatabaseWebApp.Models
+@model UserPO
+@{
+    ViewBag.Title = "Register";
+}
+
+@if (TempData.ContainsKey("registerFail"))
+{
+    <br />
+    <p class="text-danger">@TempData["registerFail"]</p>
+}
+
+<h2>Create Account</h2>
+
+@using (Html.BeginForm("Register", "Account", FormMethod.Post))
+{
+    <div class="form-horizontal">
+
+        @Html.LabelFor(model => Model.Username)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.Username, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Username, null, new { @class = "text-danger" })
+        </div>
+
+        @Html.LabelFor(model => Model.Password)
+        <div class="form-group">
+            @Html.PasswordFor(model => Model.Password, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Password, null, new { @class = "text-danger" })
+        </div>
+
+        @Html.LabelFor(model => Model.FirstName)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.FirstName, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.FirstName, null, new { @class = "text-danger" })
+        </div>
+
+        @Html.LabelFor(model => Model.LastName)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.LastName, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.LastName, null, new { @class = "text-danger" })
+        </div>
+
+        @Html.LabelFor(model => Model.Age)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.Age, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Age, null, new { @class = "text-danger" })
+        </div>
+
+        @Html.LabelFor(model => Model.Email)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.Email, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Email, null, new { @class = "text-danger" })
+        </div>
+
+        @Html.LabelFor(model => Model.Subscription)
+        <div class="form-group">
+            @Html.CheckBoxFor(model => Model.Subscription, new { @class = "form-control" })
+        </div>
+
+        @Html.HiddenFor(model => Model.RoleID)
+
+        <input class="btn btn-success" type="submit" value="Register" />
+    </div>
+}

@@ -1,0 +1,40 @@
+﻿@using ReactorDatabaseWebApp.Models
+@model LoginPO
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+@using (Html.BeginForm("Login", "Account", FormMethod.Post))
+{
+    <div class="form-horizontal">
+        @Html.LabelFor(model => Model.Username)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.Username, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Username, null, new { @class = "text-danger" })
+        </div>
+
+        @Html.LabelFor(model => Model.Password)
+        <div class="form-group">
+            @Html.PasswordFor(model => Model.Password, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Password, null, new { @class = "text-danger" })
+        </div>
+        @if (int.Parse(Session["Attempts"].ToString()) <= 5)
+        {
+            <input class="btn btn-success" type="submit" value="Login" /><br />
+        }
+        else
+        {
+            <button class="btn btn-default disabled">Login</button><br />
+        }
+
+        @if (TempData.ContainsKey("loginFail"))
+        {
+            <br />
+            <p class="text-danger">@TempData["loginFail"]</p>
+        }
+    </div><br />
+
+    <p>Don't have an account? @Html.ActionLink("Sign up", "Register")</p>
+}

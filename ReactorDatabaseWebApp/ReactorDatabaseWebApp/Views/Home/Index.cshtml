@@ -1,0 +1,86 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@if (TempData.ContainsKey("noPermission"))
+{
+    <br />
+    <p class="text-info">@TempData["noPermission"]</p>
+}
+
+@if (TempData.ContainsKey("notFound"))
+{
+    <br />
+    <p class="text-info">@TempData["notFound"]</p>
+}
+
+<div class="jumbotron" id="homeBanner">
+    <h1>Reactor Core</h1>
+    <p class="lead">
+        A free nuclear energy database with the goal of providing a reference
+        source for students, professionals, and nuclear power enthusiasts.<br />
+        <small><small>Join our community to gain access to member features like Reactor Bookmarks and Database Statistics.</small></small>
+    </p>
+    <p>@Html.ActionLink("Join Today", "Register", "Account", null, new { @class = "btn btn-success btn-lg" })</p>
+</div>
+
+<div class="row homeLinks">
+    <div class="col-md-4">
+        <h2>Reactors</h2>
+        <p>
+            Robust, clean energy with life cycle carbon emissions per 
+            unit power output superior to those of wind and solar power. Nuclear reactors are
+            the source of this power, with various designs currently in use and 
+            advanced, safer, and even more efficient reactor designs on the horizon. Browse the reactor
+            directory to learn more.
+        </p>
+        <p><a class="btn btn-lg btn-primary" href="~/Reactor">Browse Reactors &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Neutron Moderators</h2>
+        <p>
+            Reactors operate in one of two general <i>spectrums</i> of neutron energies based on 
+            their fuel type. Fuels that fission with high-energy or <i>fast</i> neutrons are used in 
+            Fast Reactors, while fuels that fission more readily with lower-energy <i>thermal</i> neutrons 
+            are used in Thermal Reactors. Most reactors are designed for the thermal spectrum and 
+            require a <i>neutron moderator</i> material to help reduce the energy of neutrons in the system.
+        </p>
+        <p><a class="btn btn-lg btn-primary" href="~/Moderator">Browse Moderators &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Database Statistics</h2>
+        <p>
+            Thermal or Fast? Prototype First Generation or cutting-edge Fourth Gen? Members can check out
+            the <b>Statistics</b> page to view breakdowns of the types of reactors in the database.
+        </p>
+        <p><a class="btn btn-lg btn-primary" href="~/Reactor/ReactorStatistics">View Statistics &raquo;</a></p>
+    </div>
+</div>
+
+@*<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+            enables a clean separation of concerns and gives you full control over markup
+            for enjoyable, agile development.
+        </p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Get more libraries</h2>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+</div>*@

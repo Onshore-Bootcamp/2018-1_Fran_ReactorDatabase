@@ -1,0 +1,6 @@
+C:\Users\fmallett\source\repos\ReactorDatabaseWebApp\ReactorDB-DAL\bin\Debug\ReactorDB-DAL.dll
+C:\Users\fmallett\source\repos\ReactorDatabaseWebApp\ReactorDB-DAL\bin\Debug\ReactorDB-DAL.pdb
+C:\Users\fmallett\source\repos\ReactorDatabaseWebApp\ReactorDB-DAL\obj\Debug\ReactorDB-DAL.csprojResolveAssemblyReference.cache
+C:\Users\fmallett\source\repos\ReactorDatabaseWebApp\ReactorDB-DAL\obj\Debug\ReactorDB-DAL.csproj.CoreCompileInputs.cache
+C:\Users\fmallett\source\repos\ReactorDatabaseWebApp\ReactorDB-DAL\obj\Debug\ReactorDB-DAL.dll
+C:\Users\fmallett\source\repos\ReactorDatabaseWebApp\ReactorDB-DAL\obj\Debug\ReactorDB-DAL.pdb

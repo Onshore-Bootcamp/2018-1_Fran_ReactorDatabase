@@ -1,0 +1,6 @@
+C:\Users\fmallett\source\repos\ReactorDatabaseWebApp\ReactorDB-BLL\bin\Debug\ReactorDB-BLL.dll
+C:\Users\fmallett\source\repos\ReactorDatabaseWebApp\ReactorDB-BLL\bin\Debug\ReactorDB-BLL.pdb
+C:\Users\fmallett\source\repos\ReactorDatabaseWebApp\ReactorDB-BLL\obj\Debug\ReactorDB-BLL.csprojResolveAssemblyReference.cache
+C:\Users\fmallett\source\repos\ReactorDatabaseWebApp\ReactorDB-BLL\obj\Debug\ReactorDB-BLL.csproj.CoreCompileInputs.cache
+C:\Users\fmallett\source\repos\ReactorDatabaseWebApp\ReactorDB-BLL\obj\Debug\ReactorDB-BLL.dll
+C:\Users\fmallett\source\repos\ReactorDatabaseWebApp\ReactorDB-BLL\obj\Debug\ReactorDB-BLL.pdb

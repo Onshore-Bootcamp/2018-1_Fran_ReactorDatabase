@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Calculations";
+}
+
+<h2>Neutron Moderator Calculations</h2>
+
+<p class="largerText">The following formulas are used to compute neutron moderator properties.</p>
+
+<h3>Energy Decrement, <i>&xi;</i></h3>
+
+<p class="largerText">
+    The mean logarithmic reduction of neutron energy per collision is a function of <br />
+    the atomic mass, <i>A</i>, of the moderating nucleus.
+</p>
+
+<p><img src="~/Content/calc_xi.PNG" /></p><br />
+
+<h3>Number of collisions, <i>n</i></h3>
+
+<p class="largerText">
+    The number of collisions required to reduce neutrons from a given initial energy <br />
+    <i>E<sub>0</sub></i> to a final energy <i>E<sub>1</sub></i> is dependent on <i>&xi;</i>.
+</p>
+<p class="largerText">
+    Standard initial and final energies are the typical neutron 'birth' energy, 2 MeV, <br />
+    and the desired, final thermal energy of 1eV.
+</p>
+
+<p><img src="~/Content/calc_n.PNG" /></p>

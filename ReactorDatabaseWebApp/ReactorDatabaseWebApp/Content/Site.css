@@ -1,0 +1,137 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+table {
+    width: 90%;
+    font-size: 1.3em;
+    line-height: 1.4;
+}
+
+table#reactorDetails {
+    width: 65%;
+    font-size: 1.3em;
+    line-height: 1.4;
+}
+
+table#moderatorDetails {
+    width: 65%;
+    font-size: 1.3em;
+    line-height: 1.4;
+}
+
+table#logTable {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.moreInfo {
+    font-size: 1.2em;
+}
+
+#modTableNotes {
+    font-size: 0.95em;
+}
+
+#bodyWrap {
+    width: 1000px;
+    margin: auto;
+    background-color: rgba(247, 247, 247, 0.96);
+    padding-left: 16px;
+    padding-right: 16px;
+    border-left: 2px solid darkblue;
+    border-right: 2px solid darkblue;
+    border-bottom: 2px solid darkblue;
+}
+
+#pageWrap {
+    width: 80%;
+    margin: 15px auto;
+    position: relative;
+}
+
+#sidebar {
+    width: 100px;
+    /*border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;*/
+    position: fixed;
+    margin-right: 200px;
+    margin-top: 16px;
+    padding-left: 25px;
+}
+
+.wrapper {
+    width: 1050px;
+    max-width: 1200px;
+}
+
+#statsWrap {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.statsBox {
+    font-size: 1.3em;
+    margin: 30px;
+}
+
+.statsText {
+    transform: translateY(50%);
+    text-align: center;
+    height: 200px;
+}
+
+.statsList {
+    list-style-type: none;
+}
+
+#homeBanner {
+    background-color: #00307D;
+    margin-top: 20px;
+}
+
+#homeBanner h1 {
+    color: #000312;
+    font-weight: 900;
+}
+
+#homeBanner p {
+    color: #000312;
+}
+
+.homeLinks {
+    font-size: 1.2em;
+}
+
+body {
+    background-color: #011C59;
+    background-image: url(blue_glow2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0px;
+}
+
+.largerText {
+    font-size: 1.2em;
+}

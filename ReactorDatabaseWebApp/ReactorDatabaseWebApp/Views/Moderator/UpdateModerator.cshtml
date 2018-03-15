@@ -1,0 +1,51 @@
+﻿@using ReactorDatabaseWebApp.Models
+@model ModeratorPO
+@{
+    ViewBag.Title = "UpdateModerator";
+}
+
+<h2>Edit Moderator</h2>
+
+@using (Html.BeginForm("AddModerator", "Moderator", FormMethod.Post))
+{
+    <div class="form-horizontal">
+        @Html.HiddenFor(model => Model.ModeratorID)
+
+        @Html.LabelFor(model => Model.Name)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.Name, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Name, null, new { @class = "text-danger" })
+        </div>
+        
+        @Html.LabelFor(model => Model.ChemicalFormula)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.ChemicalFormula, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.ChemicalFormula, null, new { @class = "text-danger" })
+        </div>
+        
+        @Html.LabelFor(model => Model.Nucleus)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.Nucleus, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Nucleus, null, new { @class = "text-danger" })
+        </div>
+        
+        @Html.LabelFor(model => Model.AtomicMass)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.AtomicMass, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.AtomicMass, null, new { @class = "text-danger" })
+        </div>
+        
+        @Html.LabelFor(model => Model.ScatteringXS)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.ScatteringXS, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.ScatteringXS, null, new { @class = "text-danger" })
+        </div>
+        
+        @Html.LabelFor(model => Model.AbsorptionXS)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.AbsorptionXS, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.AbsorptionXS, null, new { @class = "text-danger" })
+        </div>
+        <input class="btn btn-success" type="submit" value="Update" />
+    </div>
+}

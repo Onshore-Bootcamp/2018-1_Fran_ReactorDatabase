@@ -1,0 +1,80 @@
+﻿@using ReactorDatabaseWebApp.Models
+@model List<ModeratorPO>
+@{
+    ViewBag.Title = "Index";
+}
+
+@if (TempData.ContainsKey("idNotFound"))
+{
+    <br />
+    <p class="text-info">@TempData["idNotFound"]</p>
+}
+
+@if (TempData.ContainsKey("addNew"))
+{
+    <br />
+    <p class="text-info">@TempData["addNew"]</p>
+}
+
+@if (TempData.ContainsKey("deletionResult"))
+{
+    <br />
+    <p class="text-info">@TempData["deletionResult"]</p>
+}
+
+<h2>Neutron Moderator List</h2>
+
+@if (Model.Count > 0)
+{
+    <table class="table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Moderator</th>
+                <th>Chemical Formula</th>
+                <th>Moderating Nucleus</th>
+                <th>Atomic Mass</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (ModeratorPO moderatorPO in Model)
+            {
+                <tr>
+                    <td>@moderatorPO.Name</td>
+                    <td>@moderatorPO.ChemicalFormula</td>
+                    <td>@moderatorPO.Nucleus</td>
+                    <td>@moderatorPO.AtomicMass</td>
+                    <td>
+                        @Html.ActionLink(" ", "ModeratorDetails", new { id = moderatorPO.ModeratorID }, new { title = "Details", @class = "glyphicon glyphicon-th-list btn btn-default" })
+                        @if (Session["Role"] != null)
+                        {
+                            if (int.TryParse(Session["Role"].ToString(), out int roleID) && roleID >= 2)
+                            {
+                                @Html.ActionLink(" ", "UpdateModerator", new { id = moderatorPO.ModeratorID }, new { title = "Edit", @class = "glyphicon glyphicon-pencil btn btn-default" }) 
+                                if (roleID >= 3)
+                                {
+                                    @Html.ActionLink(" ", "DeleteModerator", new { id = moderatorPO.ModeratorID }, new { title="Delete", @class="glyphicon glyphicon-trash btn btn-default",
+                                                        @onclick = "return Confirmation('Are you sure you want to permanently delete this moderator?')" })
+                                }
+                            }
+                        }
+                    </td>
+                </tr>
+            }
+            @if (Session["Role"] != null && int.TryParse(Session["Role"].ToString(), out int role) && role >= 2)
+            {
+                <tr><td>@Html.ActionLink("New", "AddModerator", null, new { @class = "btn btn-default" })</td></tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No neutron moderators found.</p>
+    if (Session["Role"] != null && int.TryParse(Session["Role"].ToString(), out int role) && role >= 2)
+    {
+        <p>@Html.ActionLink("Add New Moderator", "AddModerator")</p>
+    }
+}
+
+<script src="~/Scripts/site.js"></script>

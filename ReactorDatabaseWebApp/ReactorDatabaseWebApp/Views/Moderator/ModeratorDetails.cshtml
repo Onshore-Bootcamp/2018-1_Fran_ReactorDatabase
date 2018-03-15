@@ -1,0 +1,105 @@
+﻿@using ReactorDatabaseWebApp.Models
+@model ModeratorPO
+@{
+    ViewBag.Title = "ModeratorDetails";
+}
+
+@if (TempData.ContainsKey("updateModerator"))
+{
+    <br />
+    <p class="text-info">@TempData["updateModerator"]</p>
+}
+
+<h2>Moderator Details</h2>
+
+@if (Model.ChemicalFormula != "")
+{
+    <h3>@Model.Name (@Model.ChemicalFormula)</h3>
+}
+else
+{
+    <h3>@Model.Name</h3>
+}
+
+
+<table id="moderatorDetails" class="table-hover">
+    <tbody>
+        <tr>
+            <td>Key Moderating Nucleus</td>
+            <td>@Model.Nucleus</td>
+        </tr>
+        <tr>
+            <td>Atomic Mass of Nucleus, <i>A</i></td>
+            <td>@Model.AtomicMass</td>
+        </tr>
+        <tr>
+            <td>Energy Decrement Per Collision*, <i>&xi;</i></td>
+            <td>@Model.EnergyDecrement.ToString("F")</td>
+        </tr>
+        <tr>
+            <td>Number of Collisions<sup>&dagger;</sup>, <i>n</i></td>
+            <td>@Model.Collisions</td>
+        </tr>
+        <tr>
+            <td>Macroscopic Scattering Cross Section, <i>&Sigma;<sub>s</sub></i></td>
+            @if(Model.ScatteringXS != 0)
+            {
+                <td>@Model.ScatteringXS.ToString("G3")</td>
+            }
+            else
+            {
+                <td>--</td>
+            }
+        </tr>
+        <tr>
+            <td>Macroscopic Absorption Cross Section, <i>&Sigma;<sub>a</sub></i></td>
+            @if(Model.AbsorptionXS != 0)
+            {
+                <td>@Model.AbsorptionXS.ToString("G3")</td>
+            }
+            else
+            {
+                <td>--</td>
+            }
+        </tr>
+        <tr>
+            <td>Moderating Efficiency</td>
+            @if(Model.ModerationEfficiency != 0)
+            {
+                <td>@Model.ModerationEfficiency.ToString("G3")</td>
+            }
+            else
+            {
+                <td>--</td>
+            }
+        </tr>
+    </tbody>
+</table><br />
+
+<div id="modTableNotes">
+    <p>* Mean logarithmic reduction of neutron energy per collision with nuclei of atomic mass <i>A</i>. See @Html.ActionLink("calculation", "Calculations", "Moderator").</p>
+    <p>&dagger; Number of collisions required to reduce neutron from 2 MeV to 1ev. See @Html.ActionLink("calculation", "Calculations", "Moderator").</p>
+</div><br />
+
+@if (Session["Role"] != null)
+{
+    if (int.TryParse(Session["Role"].ToString(), out int role) && role > 1)
+    {
+        <div class="actionBox">
+            <h3>Actions</h3>
+            @Html.ActionLink("Edit", "UpdateModerator", new { id = Model.ModeratorID },
+                         new { @class = "btn btn-default" })
+            @if (role >= 3)
+            {
+                @Html.ActionLink("Delete", "DeleteModerator", new { id = Model.ModeratorID },
+                         new
+                         {
+                             @class = "btn btn-danger",
+                             @onclick = "return Confirmation('This moderator will be permanently deleted from the database.')"
+                         })
+            }
+        </div>
+    }
+}
+
+<script src="~/Scripts/site.js"></script>

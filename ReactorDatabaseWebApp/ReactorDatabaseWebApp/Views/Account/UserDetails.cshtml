@@ -1,0 +1,72 @@
+﻿@using ReactorDatabaseWebApp.Models
+@model UserPO
+@{
+    ViewBag.Title = "UserDetails";
+}
+
+@if (TempData.ContainsKey("updateSuccess"))
+{
+    <br />
+    <p class="text-success">@TempData["updateSuccess"]</p>
+}
+
+<h2>User Details</h2>
+
+<h3>@Model.FirstName (@Model.Username)</h3>
+
+<table id="userDetails" class="table-hover">
+    <tbody>
+        @if (Session["Role"] != null && int.TryParse(Session["Role"].ToString(), out int role) && role >= 3)
+        {
+            <tr>
+                <td>RoleID</td>
+                <td>@Model.RoleID</td>
+            </tr>
+        }
+        <tr>
+            <td>Email</td>
+            <td>@Model.Email</td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            @if (Model.LastName != "")
+            {
+                <td>@Model.LastName</td>
+            }
+            else
+            {
+                <td>--</td>
+            }
+        </tr>
+        <tr>
+            <td>Age</td>
+            @if (Model.Age != 0)
+            {
+                <td>@Model.Age</td>
+            }
+            else
+            {
+                <td>--</td>
+            }
+        </tr>
+        <tr>
+            <td>Subscription Status</td>
+            @if (Model.Subscription)
+            {
+                <td>Subscribed</td>
+            }
+            else
+            {
+                <td>Not subscribed</td>
+            }
+        </tr>
+    </tbody>
+</table><br />
+
+<div class="actionBox">
+    <h3>Actions</h3>
+    @Html.ActionLink("Edit", "UpdateUser", new { username = Model.Username }, new { @class = "btn btn-default" })
+    @Html.ActionLink("Delete Account", "DeleteUser", new { username = Model.Username, id = Model.UserID, roleID = Model.RoleID }, new { @class = "btn btn-danger", @onclick = "return Confirmation('Are you sure you want to permanently delete the account?')" })
+</div>
+
+<script src="~/Scripts/site.js"></script>

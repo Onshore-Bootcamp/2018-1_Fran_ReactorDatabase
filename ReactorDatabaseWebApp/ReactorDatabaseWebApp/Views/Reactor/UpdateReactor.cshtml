@@ -1,0 +1,93 @@
+﻿@using ReactorDatabaseWebApp.Models
+@model ReactorPO
+@{
+    ViewBag.Title = "UpdateReactor";
+}
+
+<h2>Update Reactor</h2>
+
+@using (Html.BeginForm("UpdateReactor", "Reactor", FormMethod.Post))
+{
+    <div class="form-horizontal">
+        @Html.HiddenFor(model => Model.ReactorID)
+
+        @Html.LabelFor(model => Model.Name)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.Name, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Name, null, new { @class = "text-danger" })
+        </div>
+
+        @Html.LabelFor(model => Model.FullName)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.FullName, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.FullName, null, new { @class = "text-danger" })
+        </div>
+
+        @Html.LabelFor(model => Model.IsThermal)
+        <div class="form-group">
+            <label>Thermal @Html.RadioButtonFor(model => Model.IsThermal, true, new { @class = "form-control" })</label>
+            <label>Fast @Html.RadioButtonFor(model => Model.IsThermal, false, new { @class = "form-control" })</label>
+        </div>
+
+        @Html.LabelFor(model => Model.ModeratorID)
+    <div class="form-group">
+        @Html.DropDownListFor(model => Model.ModeratorID, Model.ModeratorDropDown, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => Model.ModeratorID, null, new { @class = "text-danger" })
+    </div>
+
+        @Html.LabelFor(model => Model.PrimaryCoolant)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.PrimaryCoolant, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.PrimaryCoolant, null, new { @class = "text-danger" })
+        </div>
+
+        @Html.LabelFor(model => Model.Fuel)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.Fuel, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Fuel, null, new { @class = "text-danger" })
+        </div>
+
+        @Html.LabelFor(model => Model.ThermalPower)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.ThermalPower, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.ThermalPower, null, new { @class = "text-danger" })
+        </div>
+
+        @Html.LabelFor(model => Model.ElectricPower)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.ElectricPower, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.ElectricPower, null, new { @class = "text-danger" })
+        </div>
+
+        @Html.LabelFor(model => Model.Year)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.Year, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Year, null, new { @class = "text-danger" })
+        </div>
+
+        @Html.LabelFor(model => Model.Generation)
+        <div class="form-group">
+            @Html.DropDownListFor(model => Model.Generation, Model.GenerationDropDown, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Generation, null, new { @class = "text-danger" })
+        </div>
+
+        @Html.LabelFor(model => Model.CountryOfOrigin)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.CountryOfOrigin, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.CountryOfOrigin, null, new { @class = "text-danger" })
+        </div>
+
+        @Html.LabelFor(model => Model.NumberActive)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.NumberActive, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.NumberActive, null, new { @class = "text-danger" })
+        </div>
+
+        @Html.LabelFor(model => Model.Notes)
+        <div class="form-group">
+            @Html.TextAreaFor(model => Model.Notes, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Notes, null, new { @class = "text-danger" })
+        </div>
+        <input class="btn btn-success" type="submit" value="Update" />
+    </div>
+}

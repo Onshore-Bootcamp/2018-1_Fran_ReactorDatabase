@@ -1,0 +1,1276 @@
+﻿[2/20/2018 3:28:21 PM] - Info - Calculate Energy Decrement request - Single CalculateEnergyDecrement(Int32) - Attempting to calculate Energy Decrement for atomic mass of 2
+    [2/20/2018 3:28:21 PM] Energy Decrement calculation completed.
+[2/20/2018 3:28:21 PM] - Info - Calculate Collisions request - Int32 CalculateCollisions(Single) - Attempting to calculate number of collisions for energy decrement of -Infinity
+    [2/20/2018 3:28:21 PM] Collision calculation completed.
+[2/20/2018 3:28:21 PM] - Info - Calculate Efficiency request - Single CalculateModerationEfficiency(Single, Single, Single) - Attempting to calculate Moderation Efficiency.
+    [2/20/2018 3:28:21 PM] Efficiency calculation completed.
+[2/21/2018 8:51:01 AM] - Info - Calculate Energy Decrement request - Double CalculateEnergyDecrement(Int32) - Attempting to calculate Energy Decrement for atomic mass of 2
+    [2/21/2018 8:51:01 AM] Energy Decrement calculation completed.
+[2/21/2018 8:51:01 AM] - Info - Calculate Collisions request - Int32 CalculateCollisions(Single) - Attempting to calculate number of collisions for energy decrement of 0.7253469
+    [2/21/2018 8:51:01 AM] Collision calculation completed.
+[2/21/2018 8:51:01 AM] - Info - Calculate Efficiency request - Single CalculateModerationEfficiency(Single, Single, Single) - Attempting to calculate Moderation Efficiency.
+    [2/21/2018 8:51:01 AM] Efficiency calculation completed.
+[2/21/2018 9:04:21 AM] - Info - Calculate Energy Decrement request - Double CalculateEnergyDecrement(Int32) - Attempting to calculate Energy Decrement for atomic mass of 238
+    [2/21/2018 9:04:21 AM] Energy Decrement calculation completed.
+[2/21/2018 9:04:21 AM] - Info - Calculate Collisions request - Int32 CalculateCollisions(Single) - Attempting to calculate number of collisions for energy decrement of 0.008379872
+    [2/21/2018 9:04:21 AM] Collision calculation completed.
+[2/21/2018 9:04:21 AM] - Info - Calculate Efficiency request - Single CalculateModerationEfficiency(Single, Single, Single) - Attempting to calculate Moderation Efficiency.
+    [2/21/2018 9:04:21 AM] Efficiency calculation completed.
+[2/21/2018 9:08:21 AM] - Info - Calculate Energy Decrement request - Double CalculateEnergyDecrement(Int32) - Attempting to calculate Energy Decrement for atomic mass of 8
+    [2/21/2018 9:08:21 AM] Energy Decrement calculation completed.
+[2/21/2018 9:08:21 AM] - Info - Calculate Collisions request - Int32 CalculateCollisions(Single) - Attempting to calculate number of collisions for energy decrement of 0.2303496
+    [2/21/2018 9:08:21 AM] Collision calculation completed.
+[2/21/2018 9:08:21 AM] - Info - Calculate Efficiency request - Single CalculateModerationEfficiency(Single, Single, Single) - Attempting to calculate Moderation Efficiency.
+    [2/21/2018 9:08:21 AM] Efficiency calculation completed.
+[2/22/2018 6:27:02 PM] - Info - Calculate Energy Decrement request - Double CalculateEnergyDecrement(Int32) - Attempting to calculate Energy Decrement for atomic mass of 50
+    [2/22/2018 6:27:02 PM] Energy Decrement calculation completed.
+[2/22/2018 6:27:02 PM] - Info - Calculate Collisions request - Int32 CalculateCollisions(Single) - Attempting to calculate number of collisions for energy decrement of 0.03947192
+    [2/22/2018 6:27:02 PM] Collision calculation completed.
+[2/22/2018 6:27:02 PM] - Info - Calculate Efficiency request - Single CalculateModerationEfficiency(Single, Single, Single) - Attempting to calculate Moderation Efficiency.
+    [2/22/2018 6:27:02 PM] Efficiency calculation completed.
+[2/23/2018 1:12:50 PM] - Info - Calculate Energy Decrement request - Double CalculateEnergyDecrement(Int32) - Attempting to calculate Energy Decrement for atomic mass of 20
+    [2/23/2018 1:12:50 PM] Energy Decrement calculation completed.
+[2/23/2018 1:12:50 PM] - Info - Calculate Collisions request - Int32 CalculateCollisions(Single) - Attempting to calculate number of collisions for energy decrement of 0.09674679
+    [2/23/2018 1:12:50 PM] Collision calculation completed.
+[2/23/2018 1:12:50 PM] - Info - Calculate Efficiency request - Single CalculateModerationEfficiency(Single, Single, Single) - Attempting to calculate Moderation Efficiency.
+    [2/23/2018 1:12:50 PM] Efficiency calculation completed.
+[2/26/2018 1:58:46 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 8 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/26/2018 1:58:46 PM] 300% of database reactors operate in thermal spectrum.
+    [2/26/2018 1:58:46 PM] 12.500% of database reactors have no generation listed.
+    [2/26/2018 1:58:46 PM] 0% of database reactors in generation 1
+    [2/26/2018 1:58:46 PM] 37.500% of database reactors in generation 2
+    [2/26/2018 1:58:46 PM] 25.00% of database reactors in generation 3
+    [2/26/2018 1:58:46 PM] 25.00% of database reactors in generation 4
+    [2/26/2018 1:58:46 PM] 0% of database reactors in generation 5
+[2/26/2018 2:14:55 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 8 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/26/2018 2:14:55 PM] 75.00% of database reactors operate in thermal spectrum.
+    [2/26/2018 2:14:55 PM] 25.00% of database reactors operate in fast spectrum.
+    [2/26/2018 2:14:55 PM] 12.500% of database reactors have no generation listed.
+    [2/26/2018 2:14:55 PM] 0% of database reactors in generation 1
+    [2/26/2018 2:14:55 PM] 37.500% of database reactors in generation 2
+    [2/26/2018 2:14:55 PM] 25.00% of database reactors in generation 3
+    [2/26/2018 2:14:55 PM] 25.00% of database reactors in generation 4
+    [2/26/2018 2:14:55 PM] 0% of database reactors in generation 5
+[2/26/2018 2:26:16 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 8 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/26/2018 2:26:16 PM] 75.00% of database reactors operate in thermal spectrum.
+    [2/26/2018 2:26:16 PM] 25.00% of database reactors operate in fast spectrum.
+    [2/26/2018 2:26:16 PM] 12.500% of database reactors have no generation listed.
+    [2/26/2018 2:26:16 PM] 0% of database reactors in generation 1
+    [2/26/2018 2:26:16 PM] 37.500% of database reactors in generation 2
+    [2/26/2018 2:26:16 PM] 25.00% of database reactors in generation 3
+    [2/26/2018 2:26:16 PM] 25.00% of database reactors in generation 4
+    [2/26/2018 2:26:16 PM] 0% of database reactors in generation 5
+[2/26/2018 2:39:30 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 8 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/26/2018 2:39:30 PM] 75.00% of database reactors operate in thermal spectrum.
+    [2/26/2018 2:39:30 PM] 25.00% of database reactors operate in fast spectrum.
+    [2/26/2018 2:39:30 PM] 12.500% of database reactors have no generation listed.
+    [2/26/2018 2:39:30 PM] 0% of database reactors in generation 1
+    [2/26/2018 2:39:30 PM] 37.500% of database reactors in generation 2
+    [2/26/2018 2:39:30 PM] 25.00% of database reactors in generation 3
+    [2/26/2018 2:39:30 PM] 25.00% of database reactors in generation 4
+    [2/26/2018 2:39:30 PM] 0% of database reactors in generation 5
+[2/26/2018 2:40:59 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 8 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/26/2018 2:40:59 PM] 75.00% of database reactors operate in thermal spectrum.
+    [2/26/2018 2:40:59 PM] 25.00% of database reactors operate in fast spectrum.
+    [2/26/2018 2:40:59 PM] 12.500% of database reactors have no generation listed.
+    [2/26/2018 2:40:59 PM] 0% of database reactors in generation 1
+    [2/26/2018 2:40:59 PM] 37.500% of database reactors in generation 2
+    [2/26/2018 2:40:59 PM] 25.00% of database reactors in generation 3
+    [2/26/2018 2:40:59 PM] 25.00% of database reactors in generation 4
+    [2/26/2018 2:40:59 PM] 0% of database reactors in generation 5
+[2/26/2018 2:43:52 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 8 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/26/2018 2:43:52 PM] 75.00% of database reactors operate in thermal spectrum.
+    [2/26/2018 2:43:52 PM] 25.00% of database reactors operate in fast spectrum.
+    [2/26/2018 2:43:52 PM] 12.500% of database reactors have no generation listed.
+    [2/26/2018 2:43:52 PM] 0% of database reactors in generation 1
+    [2/26/2018 2:43:52 PM] 37.500% of database reactors in generation 2
+    [2/26/2018 2:43:52 PM] 25.00% of database reactors in generation 3
+    [2/26/2018 2:43:52 PM] 25.00% of database reactors in generation 4
+    [2/26/2018 2:43:52 PM] 0% of database reactors in generation 5
+[2/26/2018 3:19:58 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 9 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/26/2018 3:19:58 PM] 66.666666666666666666666666670% of database reactors operate in thermal spectrum.
+    [2/26/2018 3:19:58 PM] 33.333333333333333333333333330% of database reactors operate in fast spectrum.
+    [2/26/2018 3:19:58 PM] 11.111111111111111111111111110% of database reactors have no generation listed.
+    [2/26/2018 3:19:58 PM] 22.222222222222222222222222220% of database reactors in generation 1
+    [2/26/2018 3:19:58 PM] 22.222222222222222222222222220% of database reactors in generation 2
+    [2/26/2018 3:19:58 PM] 22.222222222222222222222222220% of database reactors in generation 3
+    [2/26/2018 3:19:58 PM] 22.222222222222222222222222220% of database reactors in generation 4
+    [2/26/2018 3:19:58 PM] 0% of database reactors in generation 5
+[2/26/2018 3:24:38 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 9 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/26/2018 3:24:38 PM] 66.666666666666666666666666670% of database reactors operate in thermal spectrum.
+    [2/26/2018 3:24:38 PM] 33.333333333333333333333333330% of database reactors operate in fast spectrum.
+    [2/26/2018 3:24:38 PM] 11.111111111111111111111111110% of database reactors have no generation listed.
+    [2/26/2018 3:24:38 PM] 22.222222222222222222222222220% of database reactors in generation 1
+    [2/26/2018 3:24:38 PM] 22.222222222222222222222222220% of database reactors in generation 2
+    [2/26/2018 3:24:38 PM] 22.222222222222222222222222220% of database reactors in generation 3
+    [2/26/2018 3:24:38 PM] 22.222222222222222222222222220% of database reactors in generation 4
+    [2/26/2018 3:24:38 PM] 0% of database reactors in generation 5
+[2/26/2018 3:29:41 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 10 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/26/2018 3:29:41 PM] 70.0% of database reactors operate in thermal spectrum.
+    [2/26/2018 3:29:41 PM] 30.0% of database reactors operate in fast spectrum.
+    [2/26/2018 3:29:41 PM] 10.0% of database reactors have no generation listed.
+    [2/26/2018 3:29:41 PM] 20.0% of database reactors in generation 1
+    [2/26/2018 3:29:41 PM] 30.0% of database reactors in generation 2
+    [2/26/2018 3:29:41 PM] 20.0% of database reactors in generation 3
+    [2/26/2018 3:29:41 PM] 20.0% of database reactors in generation 4
+    [2/26/2018 3:29:41 PM] 0% of database reactors in generation 5
+[2/26/2018 3:48:34 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 12 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/26/2018 3:48:34 PM] 75.00% of database reactors operate in thermal spectrum.
+    [2/26/2018 3:48:34 PM] 25.00% of database reactors operate in fast spectrum.
+    [2/26/2018 3:48:34 PM] 8.333333333333333333333333330% of database reactors have no generation listed.
+    [2/26/2018 3:48:34 PM] 25.00% of database reactors in generation 1
+    [2/26/2018 3:48:34 PM] 33.333333333333333333333333330% of database reactors in generation 2
+    [2/26/2018 3:48:34 PM] 16.666666666666666666666666670% of database reactors in generation 3
+    [2/26/2018 3:48:34 PM] 16.666666666666666666666666670% of database reactors in generation 4
+    [2/26/2018 3:48:34 PM] 0% of database reactors in generation 5
+[2/26/2018 3:55:20 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 13 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/26/2018 3:55:20 PM] 76.923076923076923076923076920% of database reactors operate in thermal spectrum.
+    [2/26/2018 3:55:20 PM] 23.076923076923076923076923080% of database reactors operate in fast spectrum.
+    [2/26/2018 3:55:20 PM] 7.6923076923076923076923076900% of database reactors have no generation listed.
+    [2/26/2018 3:55:20 PM] 30.769230769230769230769230770% of database reactors in generation 1
+    [2/26/2018 3:55:20 PM] 30.769230769230769230769230770% of database reactors in generation 2
+    [2/26/2018 3:55:20 PM] 15.384615384615384615384615380% of database reactors in generation 3
+    [2/26/2018 3:55:20 PM] 15.384615384615384615384615380% of database reactors in generation 4
+    [2/26/2018 3:55:20 PM] 0% of database reactors in generation 5
+[2/26/2018 4:08:31 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/26/2018 4:08:31 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/26/2018 4:08:31 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/26/2018 4:08:31 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/26/2018 4:08:31 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/26/2018 4:08:31 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/26/2018 4:08:31 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/26/2018 4:08:31 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/26/2018 4:08:31 PM] 0% of database reactors in generation 5
+[2/26/2018 6:25:23 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/26/2018 6:25:23 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/26/2018 6:25:23 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/26/2018 6:25:23 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/26/2018 6:25:23 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/26/2018 6:25:23 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/26/2018 6:25:23 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/26/2018 6:25:23 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/26/2018 6:25:23 PM] 0% of database reactors in generation 5
+[2/27/2018 9:14:48 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 9:14:48 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 9:14:48 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 9:14:48 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 9:14:48 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 9:14:48 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 9:14:48 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 9:14:48 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 9:14:48 AM] 0% of database reactors in generation 5
+[2/27/2018 9:17:32 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 9:17:33 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 9:17:33 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 9:17:33 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 9:17:33 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 9:17:33 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 9:17:33 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 9:17:33 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 9:17:33 AM] 0% of database reactors in generation 5
+[2/27/2018 9:19:38 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 9:19:38 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 9:19:38 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 9:19:38 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 9:19:38 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 9:19:38 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 9:19:38 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 9:19:38 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 9:19:38 AM] 0% of database reactors in generation 5
+[2/27/2018 9:19:42 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 9:19:42 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 9:19:42 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 9:19:42 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 9:19:42 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 9:19:42 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 9:19:42 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 9:19:42 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 9:19:42 AM] 0% of database reactors in generation 5
+[2/27/2018 9:23:20 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 9:23:20 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 9:23:20 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 9:23:20 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 9:23:20 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 9:23:20 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 9:23:20 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 9:23:20 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 9:23:20 AM] 0% of database reactors in generation 5
+[2/27/2018 9:24:30 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 9:24:30 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 9:24:30 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 9:24:30 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 9:24:30 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 9:24:30 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 9:24:30 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 9:24:30 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 9:24:30 AM] 0% of database reactors in generation 5
+[2/27/2018 9:31:09 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 9:31:09 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 9:31:09 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 9:31:09 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 9:31:09 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 9:31:09 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 9:31:09 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 9:31:09 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 9:31:09 AM] 0% of database reactors in generation 5
+[2/27/2018 9:31:23 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 9:31:23 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 9:31:23 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 9:31:23 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 9:31:23 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 9:31:23 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 9:31:23 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 9:31:23 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 9:31:23 AM] 0% of database reactors in generation 5
+[2/27/2018 9:38:47 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 9:38:47 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 9:38:47 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 9:38:47 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 9:38:47 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 9:38:47 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 9:38:47 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 9:38:47 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 9:38:47 AM] 0% of database reactors in generation 5
+[2/27/2018 9:52:26 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 9:52:26 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 9:52:26 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 9:52:26 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 9:52:26 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 9:52:26 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 9:52:26 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 9:52:26 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 9:52:26 AM] 0% of database reactors in generation 5
+[2/27/2018 10:00:01 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 10:00:01 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 10:00:01 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 10:00:01 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 10:00:01 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 10:00:01 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 10:00:01 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 10:00:01 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 10:00:01 AM] 0% of database reactors in generation 5
+[2/27/2018 10:00:09 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 10:00:09 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 10:00:09 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 10:00:09 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 10:00:09 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 10:00:09 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 10:00:09 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 10:00:09 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 10:00:09 AM] 0% of database reactors in generation 5
+[2/27/2018 10:03:27 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 10:03:27 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 10:03:27 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 10:03:27 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 10:03:27 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 10:03:27 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 10:03:27 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 10:03:27 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 10:03:27 AM] 0% of database reactors in generation 5
+[2/27/2018 10:03:43 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 10:03:43 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 10:03:43 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 10:03:43 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 10:03:43 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 10:03:43 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 10:03:43 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 10:03:43 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 10:03:43 AM] 0% of database reactors in generation 5
+[2/27/2018 10:17:58 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 10:17:58 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 10:17:58 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 10:17:58 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 10:17:58 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 10:17:58 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 10:17:58 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 10:17:58 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 10:17:58 AM] 0% of database reactors in generation 5
+[2/27/2018 10:21:45 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 10:21:45 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 10:21:45 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 10:21:45 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 10:21:45 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 10:21:45 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 10:21:45 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 10:21:45 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 10:21:45 AM] 0% of database reactors in generation 5
+[2/27/2018 10:23:06 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 10:23:06 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 10:23:06 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 10:23:06 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 10:23:06 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 10:23:06 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 10:23:06 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 10:23:06 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 10:23:06 AM] 0% of database reactors in generation 5
+[2/27/2018 10:26:09 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 10:26:09 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 10:26:09 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 10:26:09 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 10:26:09 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 10:26:09 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 10:26:09 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 10:26:09 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 10:26:09 AM] 0% of database reactors in generation 5
+[2/27/2018 10:56:16 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 10:56:16 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 10:56:16 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 10:56:16 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 10:56:16 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 10:56:16 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 10:56:16 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 10:56:16 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 10:56:16 AM] 0% of database reactors in generation 5
+[2/27/2018 11:28:54 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 11:28:54 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 11:28:54 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 11:28:54 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 11:28:54 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 11:28:54 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 11:28:54 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 11:28:54 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 11:28:54 AM] 0% of database reactors in generation 5
+[2/27/2018 11:29:25 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 11:29:25 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 11:29:25 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 11:29:25 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 11:29:25 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 11:29:25 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 11:29:25 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 11:29:25 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 11:29:25 AM] 0% of database reactors in generation 5
+[2/27/2018 2:14:22 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 2:14:22 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 2:14:22 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 2:14:22 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 2:14:22 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 2:14:22 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 2:14:22 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 2:14:22 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 2:14:22 PM] 0% of database reactors in generation 5
+[2/27/2018 2:20:40 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/27/2018 2:20:40 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/27/2018 2:20:40 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/27/2018 2:20:40 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/27/2018 2:20:40 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/27/2018 2:20:40 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/27/2018 2:20:40 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/27/2018 2:20:40 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/27/2018 2:20:40 PM] 0% of database reactors in generation 5
+[2/28/2018 2:57:20 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/28/2018 2:57:20 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/28/2018 2:57:20 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/28/2018 2:57:20 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/28/2018 2:57:20 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/28/2018 2:57:20 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/28/2018 2:57:20 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/28/2018 2:57:20 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/28/2018 2:57:20 PM] 0% of database reactors in generation 5
+[2/28/2018 3:36:39 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [2/28/2018 3:36:39 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [2/28/2018 3:36:39 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [2/28/2018 3:36:39 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [2/28/2018 3:36:39 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [2/28/2018 3:36:39 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [2/28/2018 3:36:39 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [2/28/2018 3:36:39 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [2/28/2018 3:36:39 PM] 0% of database reactors in generation 5
+[3/1/2018 8:41:11 AM] - Info - Calculate Energy Decrement request - Double CalculateEnergyDecrement(Int32) - Attempting to calculate Energy Decrement for atomic mass of 20
+    [3/1/2018 8:41:11 AM] Energy Decrement calculation completed.
+[3/1/2018 8:41:11 AM] - Info - Calculate Collisions request - Int32 CalculateCollisions(Single) - Attempting to calculate number of collisions for energy decrement of 0.09674679
+    [3/1/2018 8:41:11 AM] Collision calculation completed.
+[3/1/2018 8:47:48 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 8:47:48 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 8:47:48 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 8:47:48 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 8:47:48 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 8:47:48 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 8:47:48 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 8:47:48 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 8:47:48 AM] 0% of database reactors in generation 5
+[3/1/2018 8:47:57 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 8:47:57 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 8:47:57 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 8:47:57 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 8:47:57 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 8:47:57 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 8:47:57 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 8:47:57 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 8:47:57 AM] 0% of database reactors in generation 5
+[3/1/2018 10:44:58 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 10:44:59 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 10:44:59 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 10:44:59 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 10:44:59 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 10:44:59 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 10:44:59 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 10:44:59 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 10:44:59 AM] 0% of database reactors in generation 5
+[3/1/2018 12:03:59 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 12:03:59 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 12:03:59 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 12:03:59 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 12:03:59 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 12:03:59 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 12:03:59 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 12:03:59 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 12:03:59 PM] 0% of database reactors in generation 5
+[3/1/2018 12:33:48 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 12:33:48 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 12:33:48 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 12:33:48 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 12:33:48 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 12:33:48 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 12:33:48 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 12:33:48 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 12:33:48 PM] 0% of database reactors in generation 5
+[3/1/2018 12:48:32 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 12:48:32 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 12:48:32 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 12:48:32 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 12:48:32 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 12:48:32 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 12:48:32 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 12:48:32 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 12:48:32 PM] 0% of database reactors in generation 5
+[3/1/2018 1:13:17 PM] - Info - Calculate Energy Decrement request - Double CalculateEnergyDecrement(Int32) - Attempting to calculate Energy Decrement for atomic mass of 20
+    [3/1/2018 1:13:17 PM] Energy Decrement calculation completed.
+[3/1/2018 1:13:17 PM] - Info - Calculate Collisions request - Int32 CalculateCollisions(Single) - Attempting to calculate number of collisions for energy decrement of 0.09674679
+    [3/1/2018 1:13:17 PM] Collision calculation completed.
+[3/1/2018 1:21:49 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 1:21:49 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 1:21:49 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 1:21:49 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 1:21:49 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 1:21:49 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 1:21:49 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 1:21:49 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 1:21:49 PM] 0% of database reactors in generation 5
+[3/1/2018 3:33:21 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 3:33:21 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 3:33:21 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 3:33:21 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 3:33:21 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 3:33:21 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 3:33:21 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 3:33:21 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 3:33:21 PM] 0% of database reactors in generation 5
+[3/1/2018 3:36:16 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 3:36:16 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 3:36:16 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 3:36:16 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 3:36:16 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 3:36:16 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 3:36:16 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 3:36:16 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 3:36:16 PM] 0% of database reactors in generation 5
+[3/1/2018 3:36:56 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 3:36:56 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 3:36:56 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 3:36:56 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 3:36:56 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 3:36:56 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 3:36:56 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 3:36:56 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 3:36:56 PM] 0% of database reactors in generation 5
+[3/1/2018 3:38:04 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 3:38:04 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 3:38:04 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 3:38:04 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 3:38:04 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 3:38:04 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 3:38:04 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 3:38:04 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 3:38:04 PM] 0% of database reactors in generation 5
+[3/1/2018 3:40:11 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 3:40:11 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 3:40:11 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 3:40:11 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 3:40:11 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 3:40:11 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 3:40:11 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 3:40:11 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 3:40:11 PM] 0% of database reactors in generation 5
+[3/1/2018 3:41:04 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 3:41:04 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 3:41:04 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 3:41:04 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 3:41:04 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 3:41:04 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 3:41:04 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 3:41:04 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 3:41:04 PM] 0% of database reactors in generation 5
+[3/1/2018 3:41:36 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 3:41:36 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 3:41:36 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 3:41:36 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 3:41:36 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 3:41:36 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 3:41:36 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 3:41:36 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 3:41:36 PM] 0% of database reactors in generation 5
+[3/1/2018 3:42:10 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 3:42:10 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 3:42:10 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 3:42:10 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 3:42:10 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 3:42:10 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 3:42:10 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 3:42:10 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 3:42:10 PM] 0% of database reactors in generation 5
+[3/1/2018 3:43:31 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 3:43:31 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 3:43:31 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 3:43:31 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 3:43:31 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 3:43:31 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 3:43:31 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 3:43:31 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 3:43:31 PM] 0% of database reactors in generation 5
+[3/1/2018 3:44:52 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 3:44:52 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 3:44:52 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 3:44:52 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 3:44:52 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 3:44:52 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 3:44:52 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 3:44:52 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 3:44:52 PM] 0% of database reactors in generation 5
+[3/1/2018 3:49:48 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 3:49:48 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 3:49:48 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 3:49:48 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 3:49:48 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 3:49:48 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 3:49:48 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 3:49:48 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 3:49:48 PM] 0% of database reactors in generation 5
+[3/1/2018 4:21:08 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 4:21:08 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 4:21:08 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 4:21:08 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 4:21:08 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 4:21:08 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 4:21:08 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 4:21:08 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 4:21:08 PM] 0% of database reactors in generation 5
+[3/1/2018 4:25:02 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 4:25:02 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 4:25:02 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 4:25:02 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 4:25:02 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 4:25:02 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 4:25:02 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 4:25:02 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 4:25:02 PM] 0% of database reactors in generation 5
+[3/1/2018 4:25:46 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 4:25:46 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 4:25:46 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 4:25:46 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 4:25:46 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 4:25:46 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 4:25:46 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 4:25:46 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 4:25:46 PM] 0% of database reactors in generation 5
+[3/1/2018 4:26:57 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 4:26:57 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 4:26:57 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 4:26:57 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 4:26:57 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 4:26:57 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 4:26:57 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 4:26:57 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 4:26:57 PM] 0% of database reactors in generation 5
+[3/1/2018 4:27:33 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 4:27:33 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 4:27:33 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 4:27:33 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 4:27:33 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 4:27:33 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 4:27:33 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 4:27:33 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 4:27:33 PM] 0% of database reactors in generation 5
+[3/1/2018 4:28:24 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 4:28:24 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 4:28:24 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 4:28:24 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 4:28:24 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 4:28:24 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 4:28:24 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 4:28:24 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 4:28:24 PM] 0% of database reactors in generation 5
+[3/1/2018 4:35:31 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 4:35:31 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 4:35:31 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 4:35:31 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 4:35:31 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 4:35:31 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 4:35:31 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 4:35:31 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 4:35:31 PM] 0% of database reactors in generation 5
+[3/1/2018 4:48:40 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 4:48:40 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 4:48:40 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 4:48:40 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 4:48:40 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 4:48:40 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 4:48:40 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 4:48:40 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 4:48:40 PM] 0% of database reactors in generation 5
+[3/1/2018 4:53:01 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 4:53:01 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 4:53:01 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 4:53:01 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 4:53:01 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 4:53:01 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 4:53:01 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 4:53:01 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 4:53:01 PM] 0% of database reactors in generation 5
+[3/1/2018 4:58:23 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 4:58:23 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 4:58:23 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 4:58:23 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 4:58:23 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 4:58:23 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 4:58:23 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 4:58:23 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 4:58:23 PM] 0% of database reactors in generation 5
+[3/1/2018 5:40:34 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 5:40:34 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 5:40:34 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 5:40:34 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 5:40:34 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 5:40:34 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 5:40:34 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 5:40:34 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 5:40:34 PM] 0% of database reactors in generation 5
+[3/1/2018 5:42:53 PM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/1/2018 5:42:53 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/1/2018 5:42:53 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/1/2018 5:42:53 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/1/2018 5:42:53 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/1/2018 5:42:53 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/1/2018 5:42:53 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/1/2018 5:42:53 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/1/2018 5:42:53 PM] 0% of database reactors in generation 5
+[3/2/2018 10:32:15 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/2/2018 10:32:15 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/2/2018 10:32:15 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/2/2018 10:32:15 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/2/2018 10:32:15 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/2/2018 10:32:15 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/2/2018 10:32:15 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/2/2018 10:32:15 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/2/2018 10:32:15 AM] 0% of database reactors in generation 5
+[3/2/2018 10:55:17 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/2/2018 10:55:17 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/2/2018 10:55:17 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/2/2018 10:55:17 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/2/2018 10:55:17 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/2/2018 10:55:17 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/2/2018 10:55:17 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/2/2018 10:55:17 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/2/2018 10:55:17 AM] 0% of database reactors in generation 5
+[3/2/2018 10:58:16 AM] - Info - Spectrum Count request - Int32[] SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO]) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/2/2018 10:58:16 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/2/2018 10:58:16 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/2/2018 10:58:16 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/2/2018 10:58:16 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/2/2018 10:58:16 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/2/2018 10:58:16 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/2/2018 10:58:16 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/2/2018 10:58:16 AM] 0% of database reactors in generation 5
+[3/2/2018 2:13:14 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/2/2018 2:13:14 PM] 0% of database reactors operate in thermal spectrum.
+    [3/2/2018 2:13:14 PM] 0% of database reactors operate in fast spectrum.
+    [3/2/2018 2:13:14 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/2/2018 2:13:14 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/2/2018 2:13:14 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/2/2018 2:13:14 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/2/2018 2:13:14 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/2/2018 2:13:14 PM] 0% of database reactors in generation 5
+[3/2/2018 2:22:53 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/2/2018 2:22:53 PM] 0% of database reactors operate in thermal spectrum.
+    [3/2/2018 2:22:53 PM] 0% of database reactors operate in fast spectrum.
+    [3/2/2018 2:22:53 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/2/2018 2:22:53 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/2/2018 2:22:53 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/2/2018 2:22:53 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/2/2018 2:22:53 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/2/2018 2:22:53 PM] 0% of database reactors in generation 5
+[3/2/2018 2:25:14 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/2/2018 2:25:14 PM] 0% of database reactors operate in thermal spectrum.
+    [3/2/2018 2:25:14 PM] 0% of database reactors operate in fast spectrum.
+    [3/2/2018 2:25:14 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/2/2018 2:25:14 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/2/2018 2:25:14 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/2/2018 2:25:14 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/2/2018 2:25:14 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/2/2018 2:25:14 PM] 0% of database reactors in generation 5
+[3/2/2018 2:29:45 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/2/2018 2:29:45 PM] 0% of database reactors operate in thermal spectrum.
+    [3/2/2018 2:29:45 PM] 0% of database reactors operate in fast spectrum.
+    [3/2/2018 2:29:45 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/2/2018 2:29:45 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/2/2018 2:29:45 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/2/2018 2:29:45 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/2/2018 2:29:45 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/2/2018 2:29:45 PM] 0% of database reactors in generation 5
+[3/2/2018 2:29:50 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/2/2018 2:29:50 PM] 0% of database reactors operate in thermal spectrum.
+    [3/2/2018 2:29:50 PM] 0% of database reactors operate in fast spectrum.
+    [3/2/2018 2:29:50 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/2/2018 2:29:50 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/2/2018 2:29:50 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/2/2018 2:29:50 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/2/2018 2:29:50 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/2/2018 2:29:50 PM] 0% of database reactors in generation 5
+[3/2/2018 2:31:08 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/2/2018 2:31:08 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/2/2018 2:31:08 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/2/2018 2:31:08 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/2/2018 2:31:08 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/2/2018 2:31:08 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/2/2018 2:31:08 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/2/2018 2:31:08 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/2/2018 2:31:08 PM] 0% of database reactors in generation 5
+[3/2/2018 4:21:55 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/2/2018 4:21:55 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/2/2018 4:21:55 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/2/2018 4:21:55 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/2/2018 4:21:55 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/2/2018 4:21:55 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/2/2018 4:21:55 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/2/2018 4:21:55 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/2/2018 4:21:55 PM] 0% of database reactors in generation 5
+[3/2/2018 5:28:34 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/2/2018 5:28:34 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/2/2018 5:28:34 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/2/2018 5:28:34 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/2/2018 5:28:34 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/2/2018 5:28:34 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/2/2018 5:28:34 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/2/2018 5:28:34 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/2/2018 5:28:34 PM] 0% of database reactors in generation 5
+[3/2/2018 5:31:37 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/2/2018 5:31:37 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/2/2018 5:31:37 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/2/2018 5:31:37 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/2/2018 5:31:37 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/2/2018 5:31:37 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/2/2018 5:31:37 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/2/2018 5:31:37 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/2/2018 5:31:37 PM] 0% of database reactors in generation 5
+[3/6/2018 2:47:32 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/6/2018 2:47:32 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/6/2018 2:47:32 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/6/2018 2:47:32 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/6/2018 2:47:32 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/6/2018 2:47:32 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/6/2018 2:47:32 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/6/2018 2:47:32 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/6/2018 2:47:32 PM] 0% of database reactors in generation 5
+[3/6/2018 2:48:21 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/6/2018 2:48:21 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/6/2018 2:48:21 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/6/2018 2:48:21 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/6/2018 2:48:21 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/6/2018 2:48:21 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/6/2018 2:48:21 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/6/2018 2:48:21 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/6/2018 2:48:21 PM] 0% of database reactors in generation 5
+[3/6/2018 2:50:18 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/6/2018 2:50:18 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/6/2018 2:50:18 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/6/2018 2:50:18 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/6/2018 2:50:18 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/6/2018 2:50:18 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/6/2018 2:50:18 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/6/2018 2:50:18 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/6/2018 2:50:18 PM] 0% of database reactors in generation 5
+[3/6/2018 2:53:29 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/6/2018 2:53:29 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/6/2018 2:53:29 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/6/2018 2:53:29 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/6/2018 2:53:29 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/6/2018 2:53:29 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/6/2018 2:53:29 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/6/2018 2:53:29 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/6/2018 2:53:29 PM] 0% of database reactors in generation 5
+[3/6/2018 2:54:58 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/6/2018 2:54:58 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/6/2018 2:54:58 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/6/2018 2:54:58 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/6/2018 2:54:58 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/6/2018 2:54:58 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/6/2018 2:54:58 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/6/2018 2:54:58 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/6/2018 2:54:58 PM] 0% of database reactors in generation 5
+[3/6/2018 2:58:48 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/6/2018 2:58:48 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/6/2018 2:58:48 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/6/2018 2:58:48 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/6/2018 2:58:48 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/6/2018 2:58:48 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/6/2018 2:58:48 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/6/2018 2:58:48 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/6/2018 2:58:48 PM] 0% of database reactors in generation 5
+[3/6/2018 3:00:07 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/6/2018 3:00:07 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/6/2018 3:00:07 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/6/2018 3:00:07 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/6/2018 3:00:07 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/6/2018 3:00:07 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/6/2018 3:00:07 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/6/2018 3:00:07 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/6/2018 3:00:07 PM] 0% of database reactors in generation 5
+[3/6/2018 3:03:40 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/6/2018 3:03:40 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/6/2018 3:03:40 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/6/2018 3:03:40 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/6/2018 3:03:40 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/6/2018 3:03:40 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/6/2018 3:03:40 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/6/2018 3:03:40 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/6/2018 3:03:40 PM] 0% of database reactors in generation 5
+[3/6/2018 3:03:58 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/6/2018 3:03:58 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/6/2018 3:03:58 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/6/2018 3:03:58 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/6/2018 3:03:58 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/6/2018 3:03:58 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/6/2018 3:03:58 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/6/2018 3:03:58 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/6/2018 3:03:58 PM] 0% of database reactors in generation 5
+[3/6/2018 3:04:32 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/6/2018 3:04:32 PM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/6/2018 3:04:32 PM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/6/2018 3:04:32 PM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/6/2018 3:04:32 PM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/6/2018 3:04:32 PM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/6/2018 3:04:32 PM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/6/2018 3:04:32 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/6/2018 3:04:32 PM] 0% of database reactors in generation 5
+[3/7/2018 8:52:02 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/7/2018 8:52:02 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/7/2018 8:52:02 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/7/2018 8:52:02 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/7/2018 8:52:02 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/7/2018 8:52:02 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/7/2018 8:52:02 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/7/2018 8:52:02 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/7/2018 8:52:02 AM] 0% of database reactors in generation 5
+[3/7/2018 8:53:09 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/7/2018 8:53:09 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/7/2018 8:53:09 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/7/2018 8:53:09 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/7/2018 8:53:09 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/7/2018 8:53:09 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/7/2018 8:53:09 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/7/2018 8:53:09 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/7/2018 8:53:09 AM] 0% of database reactors in generation 5
+[3/7/2018 8:53:38 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/7/2018 8:53:38 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/7/2018 8:53:38 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/7/2018 8:53:38 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/7/2018 8:53:38 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/7/2018 8:53:38 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/7/2018 8:53:38 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/7/2018 8:53:38 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/7/2018 8:53:38 AM] 0% of database reactors in generation 5
+[3/7/2018 8:53:57 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/7/2018 8:53:57 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/7/2018 8:53:57 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/7/2018 8:53:57 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/7/2018 8:53:57 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/7/2018 8:53:57 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/7/2018 8:53:57 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/7/2018 8:53:57 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/7/2018 8:53:57 AM] 0% of database reactors in generation 5
+[3/7/2018 8:54:16 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/7/2018 8:54:16 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/7/2018 8:54:16 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/7/2018 8:54:16 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/7/2018 8:54:16 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/7/2018 8:54:16 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/7/2018 8:54:16 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/7/2018 8:54:16 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/7/2018 8:54:16 AM] 0% of database reactors in generation 5
+[3/7/2018 8:54:35 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/7/2018 8:54:35 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/7/2018 8:54:35 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/7/2018 8:54:35 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/7/2018 8:54:35 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/7/2018 8:54:35 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/7/2018 8:54:35 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/7/2018 8:54:35 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/7/2018 8:54:35 AM] 0% of database reactors in generation 5
+[3/7/2018 8:56:59 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/7/2018 8:56:59 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/7/2018 8:56:59 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/7/2018 8:56:59 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/7/2018 8:56:59 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/7/2018 8:56:59 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/7/2018 8:56:59 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/7/2018 8:56:59 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/7/2018 8:56:59 AM] 0% of database reactors in generation 5
+[3/7/2018 9:04:14 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/7/2018 9:04:14 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/7/2018 9:04:14 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/7/2018 9:04:14 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/7/2018 9:04:14 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/7/2018 9:04:15 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/7/2018 9:04:15 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/7/2018 9:04:15 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/7/2018 9:04:15 AM] 0% of database reactors in generation 5
+[3/7/2018 9:06:50 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/7/2018 9:06:50 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/7/2018 9:06:50 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/7/2018 9:06:50 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/7/2018 9:06:50 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/7/2018 9:06:50 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/7/2018 9:06:50 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/7/2018 9:06:50 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/7/2018 9:06:50 AM] 0% of database reactors in generation 5
+[3/7/2018 9:08:40 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/7/2018 9:08:40 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/7/2018 9:08:40 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/7/2018 9:08:40 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/7/2018 9:08:40 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/7/2018 9:08:40 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/7/2018 9:08:40 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/7/2018 9:08:40 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/7/2018 9:08:40 AM] 0% of database reactors in generation 5
+[3/7/2018 9:09:16 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/7/2018 9:09:16 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/7/2018 9:09:16 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/7/2018 9:09:16 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/7/2018 9:09:16 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/7/2018 9:09:16 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/7/2018 9:09:16 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/7/2018 9:09:16 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/7/2018 9:09:16 AM] 0% of database reactors in generation 5
+[3/7/2018 9:10:45 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/7/2018 9:10:45 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/7/2018 9:10:45 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/7/2018 9:10:45 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/7/2018 9:10:45 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/7/2018 9:10:45 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/7/2018 9:10:45 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/7/2018 9:10:45 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/7/2018 9:10:45 AM] 0% of database reactors in generation 5
+[3/7/2018 10:03:27 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/7/2018 10:03:27 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/7/2018 10:03:27 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/7/2018 10:03:27 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/7/2018 10:03:27 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/7/2018 10:03:27 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/7/2018 10:03:27 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/7/2018 10:03:27 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/7/2018 10:03:27 AM] 0% of database reactors in generation 5
+[3/7/2018 10:31:50 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/7/2018 10:31:50 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/7/2018 10:31:50 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/7/2018 10:31:50 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/7/2018 10:31:50 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/7/2018 10:31:50 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/7/2018 10:31:50 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/7/2018 10:31:50 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/7/2018 10:31:50 AM] 0% of database reactors in generation 5
+[3/7/2018 10:42:36 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 14 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/7/2018 10:42:36 AM] 78.571428571428571428571428570% of database reactors operate in thermal spectrum.
+    [3/7/2018 10:42:37 AM] 21.428571428571428571428571430% of database reactors operate in fast spectrum.
+    [3/7/2018 10:42:37 AM] 7.1428571428571428571428571400% of database reactors have no generation listed.
+    [3/7/2018 10:42:37 AM] 28.571428571428571428571428570% of database reactors in generation 1
+    [3/7/2018 10:42:37 AM] 28.571428571428571428571428570% of database reactors in generation 2
+    [3/7/2018 10:42:37 AM] 21.428571428571428571428571430% of database reactors in generation 3
+    [3/7/2018 10:42:37 AM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/7/2018 10:42:37 AM] 0% of database reactors in generation 5
+[3/7/2018 10:49:28 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/7/2018 10:49:28 AM] 80.0% of database reactors operate in thermal spectrum.
+    [3/7/2018 10:49:28 AM] 20.0% of database reactors operate in fast spectrum.
+    [3/7/2018 10:49:28 AM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/7/2018 10:49:28 AM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/7/2018 10:49:28 AM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/7/2018 10:49:28 AM] 20.0% of database reactors in generation 3
+    [3/7/2018 10:49:28 AM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/7/2018 10:49:28 AM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/7/2018 10:54:40 AM] - Info - Calculate Energy Decrement request - Double CalculateEnergyDecrement(Int32) - Attempting to calculate Energy Decrement for atomic mass of 9
+    [3/7/2018 10:54:40 AM] Energy Decrement calculation completed.
+[3/7/2018 10:54:40 AM] - Info - Calculate Collisions request - Int32 CalculateCollisions(Single) - Attempting to calculate number of collisions for energy decrement of 0.2066007
+    [3/7/2018 10:54:40 AM] Collision calculation completed.
+[3/7/2018 10:54:40 AM] - Info - Calculate Efficiency request - Single CalculateModerationEfficiency(Single, Single, Single) - Attempting to calculate Moderation Efficiency.
+    [3/7/2018 10:54:40 AM] Efficiency calculation completed.
+[3/7/2018 11:05:38 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/7/2018 11:05:38 AM] 80.0% of database reactors operate in thermal spectrum.
+    [3/7/2018 11:05:38 AM] 20.0% of database reactors operate in fast spectrum.
+    [3/7/2018 11:05:38 AM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/7/2018 11:05:38 AM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/7/2018 11:05:38 AM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/7/2018 11:05:38 AM] 20.0% of database reactors in generation 3
+    [3/7/2018 11:05:38 AM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/7/2018 11:05:38 AM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/8/2018 8:52:47 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/8/2018 8:52:47 AM] 80.0% of database reactors operate in thermal spectrum.
+    [3/8/2018 8:52:47 AM] 20.0% of database reactors operate in fast spectrum.
+    [3/8/2018 8:52:47 AM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/8/2018 8:52:47 AM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/8/2018 8:52:47 AM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/8/2018 8:52:47 AM] 20.0% of database reactors in generation 3
+    [3/8/2018 8:52:47 AM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/8/2018 8:52:47 AM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/8/2018 8:53:52 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/8/2018 8:53:52 AM] 80.0% of database reactors operate in thermal spectrum.
+    [3/8/2018 8:53:52 AM] 20.0% of database reactors operate in fast spectrum.
+    [3/8/2018 8:53:52 AM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/8/2018 8:53:52 AM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/8/2018 8:53:52 AM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/8/2018 8:53:52 AM] 20.0% of database reactors in generation 3
+    [3/8/2018 8:53:52 AM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/8/2018 8:53:52 AM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/8/2018 8:54:07 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/8/2018 8:54:07 AM] 80.0% of database reactors operate in thermal spectrum.
+    [3/8/2018 8:54:07 AM] 20.0% of database reactors operate in fast spectrum.
+    [3/8/2018 8:54:07 AM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/8/2018 8:54:07 AM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/8/2018 8:54:07 AM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/8/2018 8:54:07 AM] 20.0% of database reactors in generation 3
+    [3/8/2018 8:54:07 AM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/8/2018 8:54:07 AM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/8/2018 8:54:51 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/8/2018 8:54:51 AM] 80.0% of database reactors operate in thermal spectrum.
+    [3/8/2018 8:54:51 AM] 20.0% of database reactors operate in fast spectrum.
+    [3/8/2018 8:54:51 AM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/8/2018 8:54:51 AM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/8/2018 8:54:51 AM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/8/2018 8:54:51 AM] 20.0% of database reactors in generation 3
+    [3/8/2018 8:54:51 AM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/8/2018 8:54:51 AM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/8/2018 9:04:01 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/8/2018 9:04:01 AM] 80.0% of database reactors operate in thermal spectrum.
+    [3/8/2018 9:04:01 AM] 20.0% of database reactors operate in fast spectrum.
+    [3/8/2018 9:04:01 AM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/8/2018 9:04:01 AM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/8/2018 9:04:01 AM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/8/2018 9:04:01 AM] 20.0% of database reactors in generation 3
+    [3/8/2018 9:04:01 AM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/8/2018 9:04:01 AM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/8/2018 9:04:59 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/8/2018 9:04:59 AM] 80.0% of database reactors operate in thermal spectrum.
+    [3/8/2018 9:04:59 AM] 20.0% of database reactors operate in fast spectrum.
+    [3/8/2018 9:04:59 AM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/8/2018 9:04:59 AM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/8/2018 9:04:59 AM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/8/2018 9:04:59 AM] 20.0% of database reactors in generation 3
+    [3/8/2018 9:04:59 AM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/8/2018 9:04:59 AM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/8/2018 10:32:02 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/8/2018 10:32:02 AM] 80.0% of database reactors operate in thermal spectrum.
+    [3/8/2018 10:32:02 AM] 20.0% of database reactors operate in fast spectrum.
+    [3/8/2018 10:32:02 AM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/8/2018 10:32:02 AM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/8/2018 10:32:02 AM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/8/2018 10:32:02 AM] 20.0% of database reactors in generation 3
+    [3/8/2018 10:32:02 AM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/8/2018 10:32:02 AM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/8/2018 10:33:25 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/8/2018 10:33:25 AM] 80.0% of database reactors operate in thermal spectrum.
+    [3/8/2018 10:33:25 AM] 20.0% of database reactors operate in fast spectrum.
+    [3/8/2018 10:33:25 AM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/8/2018 10:33:25 AM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/8/2018 10:33:25 AM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/8/2018 10:33:25 AM] 20.0% of database reactors in generation 3
+    [3/8/2018 10:33:25 AM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/8/2018 10:33:25 AM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/12/2018 11:57:52 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/12/2018 11:57:52 AM] 80.0% of database reactors operate in thermal spectrum.
+    [3/12/2018 11:57:52 AM] 20.0% of database reactors operate in fast spectrum.
+    [3/12/2018 11:57:52 AM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/12/2018 11:57:52 AM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/12/2018 11:57:52 AM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/12/2018 11:57:52 AM] 20.0% of database reactors in generation 3
+    [3/12/2018 11:57:52 AM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/12/2018 11:57:52 AM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/12/2018 12:40:58 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/12/2018 12:40:58 PM] 80.0% of database reactors operate in thermal spectrum.
+    [3/12/2018 12:40:58 PM] 20.0% of database reactors operate in fast spectrum.
+    [3/12/2018 12:40:58 PM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/12/2018 12:40:58 PM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/12/2018 12:40:58 PM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/12/2018 12:40:58 PM] 20.0% of database reactors in generation 3
+    [3/12/2018 12:40:58 PM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/12/2018 12:40:58 PM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/12/2018 12:42:08 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/12/2018 12:42:08 PM] 80.0% of database reactors operate in thermal spectrum.
+    [3/12/2018 12:42:08 PM] 20.0% of database reactors operate in fast spectrum.
+    [3/12/2018 12:42:08 PM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/12/2018 12:42:08 PM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/12/2018 12:42:08 PM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/12/2018 12:42:08 PM] 20.0% of database reactors in generation 3
+    [3/12/2018 12:42:08 PM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/12/2018 12:42:08 PM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/12/2018 12:43:08 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/12/2018 12:43:08 PM] 80.0% of database reactors operate in thermal spectrum.
+    [3/12/2018 12:43:08 PM] 20.0% of database reactors operate in fast spectrum.
+    [3/12/2018 12:43:08 PM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/12/2018 12:43:08 PM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/12/2018 12:43:08 PM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/12/2018 12:43:08 PM] 20.0% of database reactors in generation 3
+    [3/12/2018 12:43:08 PM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/12/2018 12:43:08 PM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/12/2018 12:43:38 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/12/2018 12:43:38 PM] 80.0% of database reactors operate in thermal spectrum.
+    [3/12/2018 12:43:38 PM] 20.0% of database reactors operate in fast spectrum.
+    [3/12/2018 12:43:38 PM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/12/2018 12:43:38 PM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/12/2018 12:43:38 PM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/12/2018 12:43:38 PM] 20.0% of database reactors in generation 3
+    [3/12/2018 12:43:38 PM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/12/2018 12:43:38 PM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/12/2018 1:00:53 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/12/2018 1:00:53 PM] 80.0% of database reactors operate in thermal spectrum.
+    [3/12/2018 1:00:53 PM] 20.0% of database reactors operate in fast spectrum.
+    [3/12/2018 1:00:53 PM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/12/2018 1:00:53 PM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/12/2018 1:00:53 PM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/12/2018 1:00:53 PM] 20.0% of database reactors in generation 3
+    [3/12/2018 1:00:53 PM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/12/2018 1:00:53 PM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/12/2018 4:10:40 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/12/2018 4:10:40 PM] 80.0% of database reactors operate in thermal spectrum.
+    [3/12/2018 4:10:40 PM] 20.0% of database reactors operate in fast spectrum.
+    [3/12/2018 4:10:40 PM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/12/2018 4:10:40 PM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/12/2018 4:10:40 PM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/12/2018 4:10:40 PM] 20.0% of database reactors in generation 3
+    [3/12/2018 4:10:40 PM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/12/2018 4:10:40 PM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/12/2018 4:16:41 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/12/2018 4:16:41 PM] 80.0% of database reactors operate in thermal spectrum.
+    [3/12/2018 4:16:41 PM] 20.0% of database reactors operate in fast spectrum.
+    [3/12/2018 4:16:41 PM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/12/2018 4:16:41 PM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/12/2018 4:16:41 PM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/12/2018 4:16:41 PM] 20.0% of database reactors in generation 3
+    [3/12/2018 4:16:41 PM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/12/2018 4:16:41 PM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/12/2018 4:21:44 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 15 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/12/2018 4:21:44 PM] 80.0% of database reactors operate in thermal spectrum.
+    [3/12/2018 4:21:44 PM] 20.0% of database reactors operate in fast spectrum.
+    [3/12/2018 4:21:44 PM] 6.6666666666666666666666666700% of database reactors have no generation listed.
+    [3/12/2018 4:21:44 PM] 26.666666666666666666666666670% of database reactors in generation 1
+    [3/12/2018 4:21:44 PM] 26.666666666666666666666666670% of database reactors in generation 2
+    [3/12/2018 4:21:44 PM] 20.0% of database reactors in generation 3
+    [3/12/2018 4:21:44 PM] 13.333333333333333333333333330% of database reactors in generation 4
+    [3/12/2018 4:21:44 PM] 6.6666666666666666666666666700% of database reactors in generation 5
+[3/12/2018 7:35:45 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 17 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/12/2018 7:35:45 PM] 82.35294117647058823529411765% of database reactors operate in thermal spectrum.
+    [3/12/2018 7:35:45 PM] 17.647058823529411764705882350% of database reactors operate in fast spectrum.
+    [3/12/2018 7:35:45 PM] 5.8823529411764705882352941200% of database reactors have no generation listed.
+    [3/12/2018 7:35:45 PM] 23.529411764705882352941176470% of database reactors in generation 1
+    [3/12/2018 7:35:45 PM] 29.411764705882352941176470590% of database reactors in generation 2
+    [3/12/2018 7:35:45 PM] 17.647058823529411764705882350% of database reactors in generation 3
+    [3/12/2018 7:35:45 PM] 17.647058823529411764705882350% of database reactors in generation 4
+    [3/12/2018 7:35:45 PM] 5.8823529411764705882352941200% of database reactors in generation 5
+[3/12/2018 7:48:56 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 19 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/12/2018 7:48:56 PM] 84.21052631578947368421052632% of database reactors operate in thermal spectrum.
+    [3/12/2018 7:48:56 PM] 15.789473684210526315789473680% of database reactors operate in fast spectrum.
+    [3/12/2018 7:48:56 PM] 5.2631578947368421052631578900% of database reactors have no generation listed.
+    [3/12/2018 7:48:56 PM] 21.052631578947368421052631580% of database reactors in generation 1
+    [3/12/2018 7:48:56 PM] 26.315789473684210526315789470% of database reactors in generation 2
+    [3/12/2018 7:48:56 PM] 26.315789473684210526315789470% of database reactors in generation 3
+    [3/12/2018 7:48:56 PM] 15.789473684210526315789473680% of database reactors in generation 4
+    [3/12/2018 7:48:56 PM] 5.2631578947368421052631578900% of database reactors in generation 5
+[3/12/2018 7:49:33 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 19 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/12/2018 7:49:33 PM] 84.21052631578947368421052632% of database reactors operate in thermal spectrum.
+    [3/12/2018 7:49:33 PM] 15.789473684210526315789473680% of database reactors operate in fast spectrum.
+    [3/12/2018 7:49:33 PM] 10.526315789473684210526315790% of database reactors have no generation listed.
+    [3/12/2018 7:49:33 PM] 21.052631578947368421052631580% of database reactors in generation 1
+    [3/12/2018 7:49:33 PM] 21.052631578947368421052631580% of database reactors in generation 2
+    [3/12/2018 7:49:33 PM] 26.315789473684210526315789470% of database reactors in generation 3
+    [3/12/2018 7:49:33 PM] 15.789473684210526315789473680% of database reactors in generation 4
+    [3/12/2018 7:49:33 PM] 5.2631578947368421052631578900% of database reactors in generation 5
+[3/12/2018 8:10:33 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 21 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/12/2018 8:10:33 PM] 85.71428571428571428571428571% of database reactors operate in thermal spectrum.
+    [3/12/2018 8:10:33 PM] 14.285714285714285714285714290% of database reactors operate in fast spectrum.
+    [3/12/2018 8:10:33 PM] 14.285714285714285714285714290% of database reactors have no generation listed.
+    [3/12/2018 8:10:33 PM] 19.047619047619047619047619050% of database reactors in generation 1
+    [3/12/2018 8:10:33 PM] 23.809523809523809523809523810% of database reactors in generation 2
+    [3/12/2018 8:10:33 PM] 23.809523809523809523809523810% of database reactors in generation 3
+    [3/12/2018 8:10:33 PM] 14.285714285714285714285714290% of database reactors in generation 4
+    [3/12/2018 8:10:33 PM] 4.7619047619047619047619047600% of database reactors in generation 5
+[3/12/2018 8:40:19 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 25 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/12/2018 8:40:19 PM] 88.00% of database reactors operate in thermal spectrum.
+    [3/12/2018 8:40:19 PM] 12.00% of database reactors operate in fast spectrum.
+    [3/12/2018 8:40:19 PM] 16.00% of database reactors have no generation listed.
+    [3/12/2018 8:40:19 PM] 16.00% of database reactors in generation 1
+    [3/12/2018 8:40:19 PM] 32.00% of database reactors in generation 2
+    [3/12/2018 8:40:19 PM] 20.0% of database reactors in generation 3
+    [3/12/2018 8:40:19 PM] 12.00% of database reactors in generation 4
+    [3/12/2018 8:40:19 PM] 4.00% of database reactors in generation 5
+[3/12/2018 8:51:46 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 26 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/12/2018 8:51:46 PM] 88.46153846153846153846153846% of database reactors operate in thermal spectrum.
+    [3/12/2018 8:51:46 PM] 11.538461538461538461538461540% of database reactors operate in fast spectrum.
+    [3/12/2018 8:51:46 PM] 15.384615384615384615384615380% of database reactors have no generation listed.
+    [3/12/2018 8:51:46 PM] 15.384615384615384615384615380% of database reactors in generation 1
+    [3/12/2018 8:51:46 PM] 30.769230769230769230769230770% of database reactors in generation 2
+    [3/12/2018 8:51:46 PM] 23.076923076923076923076923080% of database reactors in generation 3
+    [3/12/2018 8:51:46 PM] 11.538461538461538461538461540% of database reactors in generation 4
+    [3/12/2018 8:51:46 PM] 3.8461538461538461538461538500% of database reactors in generation 5
+[3/12/2018 9:10:47 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 28 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/12/2018 9:10:47 PM] 89.28571428571428571428571429% of database reactors operate in thermal spectrum.
+    [3/12/2018 9:10:47 PM] 10.714285714285714285714285710% of database reactors operate in fast spectrum.
+    [3/12/2018 9:10:47 PM] 14.285714285714285714285714290% of database reactors have no generation listed.
+    [3/12/2018 9:10:47 PM] 14.285714285714285714285714290% of database reactors in generation 1
+    [3/12/2018 9:10:47 PM] 32.142857142857142857142857140% of database reactors in generation 2
+    [3/12/2018 9:10:47 PM] 25.00% of database reactors in generation 3
+    [3/12/2018 9:10:47 PM] 10.714285714285714285714285710% of database reactors in generation 4
+    [3/12/2018 9:10:47 PM] 3.5714285714285714285714285700% of database reactors in generation 5
+[3/13/2018 1:40:38 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 28 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/13/2018 1:40:38 AM] 89.28571428571428571428571429% of database reactors operate in thermal spectrum.
+    [3/13/2018 1:40:38 AM] 10.714285714285714285714285710% of database reactors operate in fast spectrum.
+    [3/13/2018 1:40:38 AM] 14.285714285714285714285714290% of database reactors have no generation listed.
+    [3/13/2018 1:40:38 AM] 14.285714285714285714285714290% of database reactors in generation 1
+    [3/13/2018 1:40:38 AM] 32.142857142857142857142857140% of database reactors in generation 2
+    [3/13/2018 1:40:38 AM] 25.00% of database reactors in generation 3
+    [3/13/2018 1:40:38 AM] 10.714285714285714285714285710% of database reactors in generation 4
+    [3/13/2018 1:40:38 AM] 3.5714285714285714285714285700% of database reactors in generation 5
+[3/13/2018 1:45:35 AM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 28 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/13/2018 1:45:35 AM] 89.28571428571428571428571429% of database reactors operate in thermal spectrum.
+    [3/13/2018 1:45:35 AM] 10.714285714285714285714285710% of database reactors operate in fast spectrum.
+    [3/13/2018 1:45:35 AM] 14.285714285714285714285714290% of database reactors have no generation listed.
+    [3/13/2018 1:45:35 AM] 14.285714285714285714285714290% of database reactors in generation 1
+    [3/13/2018 1:45:35 AM] 32.142857142857142857142857140% of database reactors in generation 2
+    [3/13/2018 1:45:35 AM] 25.00% of database reactors in generation 3
+    [3/13/2018 1:45:35 AM] 10.714285714285714285714285710% of database reactors in generation 4
+    [3/13/2018 1:45:35 AM] 3.5714285714285714285714285700% of database reactors in generation 5
+[3/13/2018 2:42:54 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 28 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/13/2018 2:42:54 PM] 89.28571428571428571428571429% of database reactors operate in thermal spectrum.
+    [3/13/2018 2:42:54 PM] 10.714285714285714285714285710% of database reactors operate in fast spectrum.
+    [3/13/2018 2:42:54 PM] 14.285714285714285714285714290% of database reactors have no generation listed.
+    [3/13/2018 2:42:54 PM] 14.285714285714285714285714290% of database reactors in generation 1
+    [3/13/2018 2:42:54 PM] 32.142857142857142857142857140% of database reactors in generation 2
+    [3/13/2018 2:42:54 PM] 25.00% of database reactors in generation 3
+    [3/13/2018 2:42:54 PM] 10.714285714285714285714285710% of database reactors in generation 4
+    [3/13/2018 2:42:54 PM] 3.5714285714285714285714285700% of database reactors in generation 5
+[3/13/2018 2:52:54 PM] - Info - Calculate Energy Decrement request - Double CalculateEnergyDecrement(Int32) - Attempting to calculate Energy Decrement for atomic mass of 20
+    [3/13/2018 2:52:54 PM] Energy Decrement calculation completed.
+[3/13/2018 2:52:54 PM] - Info - Calculate Collisions request - Int32 CalculateCollisions(Single) - Attempting to calculate number of collisions for energy decrement of 0.09674679
+    [3/13/2018 2:52:54 PM] Collision calculation completed.
+[3/13/2018 2:52:54 PM] - Info - Calculate Efficiency request - Single CalculateModerationEfficiency(Single, Single, Single) - Attempting to calculate Moderation Efficiency.
+    [3/13/2018 2:52:54 PM] Efficiency calculation completed.
+[3/13/2018 2:53:45 PM] - Info - Calculate Energy Decrement request - Double CalculateEnergyDecrement(Int32) - Attempting to calculate Energy Decrement for atomic mass of 20
+    [3/13/2018 2:53:45 PM] Energy Decrement calculation completed.
+[3/13/2018 2:53:45 PM] - Info - Calculate Collisions request - Int32 CalculateCollisions(Single) - Attempting to calculate number of collisions for energy decrement of 0.09674679
+    [3/13/2018 2:53:45 PM] Collision calculation completed.
+[3/13/2018 2:53:45 PM] - Info - Calculate Efficiency request - Single CalculateModerationEfficiency(Single, Single, Single) - Attempting to calculate Moderation Efficiency.
+    [3/13/2018 2:53:45 PM] Efficiency calculation completed.
+[3/13/2018 4:00:04 PM] - Info - Spectrum Count request - ReactorDB_BLL.Models.StatisticsBO SpectrumCount(System.Collections.Generic.List`1[ReactorDB_BLL.Models.ReactorBO], ReactorDB_BLL.Models.StatisticsBO) - 28 ReactorBOs found in list. Counting thermal and fast reactors in database.
+    [3/13/2018 4:00:04 PM] 89.28571428571428571428571429% of database reactors operate in thermal spectrum.
+    [3/13/2018 4:00:04 PM] 10.714285714285714285714285710% of database reactors operate in fast spectrum.
+    [3/13/2018 4:00:04 PM] 14.285714285714285714285714290% of database reactors have no generation listed.
+    [3/13/2018 4:00:04 PM] 14.285714285714285714285714290% of database reactors in generation 1
+    [3/13/2018 4:00:04 PM] 32.142857142857142857142857140% of database reactors in generation 2
+    [3/13/2018 4:00:04 PM] 25.00% of database reactors in generation 3
+    [3/13/2018 4:00:04 PM] 10.714285714285714285714285710% of database reactors in generation 4
+    [3/13/2018 4:00:04 PM] 3.5714285714285714285714285700% of database reactors in generation 5
